@@ -1,8 +1,13 @@
 import { siteConfig } from "@/config/site.config";
+import Link from "next/link";
 
-export default function LegalPage() {
+export default function LegalPage({ params }: { params: { lang: string } }) {
+  const lang = params?.lang === "en" ? "en" : "es";
   return (
     <main className="max-w-4xl mx-auto px-6 py-20 text-slate-300 space-y-6 bg-slate-950 min-h-screen">
+      <Link href={`/${lang}`} className="text-blue-400 hover:underline text-sm inline-block mb-4">
+        ← Volver al inicio
+      </Link>
       <h1 className="text-3xl font-bold text-white">Política de Entrega de Servicios Intangibles</h1>
       <p className="text-sm text-slate-400">Última actualización: Noviembre 2026</p>
       

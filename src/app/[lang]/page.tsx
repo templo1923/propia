@@ -5,19 +5,12 @@ import Pricing from "@/components/Pricing";
 import Methodology from "@/components/Methodology";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
-import fs from "fs";
-import path from "path";
+import esDict from "@/dictionaries/es.json";
+import enDict from "@/dictionaries/en.json";
 
-async function getDictionary(lang: string) {
-  const filePath = path.join(process.cwd(), "src/dictionaries", `${lang}.json`);
-  const fileContent = fs.readFileSync(filePath, "utf-8");
-  return JSON.parse(fileContent);
-}
-
-export default async function Page({ params }: { params: Promise<{ lang: string }> }) {
-  const resolvedParams = await params;
-  const lang = resolvedParams.lang === "en" ? "en" : "es";
-  const dict = await getDictionary(lang);
+export default function Page({ params }: { params: { lang: string } }) {
+  const lang = params.lang === "en" ? "en" : "es";
+  const dict = lang === "en" ? enDict : esDict;
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 font-sans selection:bg-blue-600 selection:text-white">

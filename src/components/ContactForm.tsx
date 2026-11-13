@@ -1,3 +1,5 @@
+"use client";
+
 export default function ContactForm({ dict }: { dict: any }) {
   return (
     <section id="contact" className="py-24 px-6 bg-slate-900 text-white">
