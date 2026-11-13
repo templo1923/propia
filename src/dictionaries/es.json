@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "services": "Servicios",
+    "pricing": "Planes",
+    "method": "Metodología",
+    "contact": "Contacto",
+    "cta": "Iniciar Proyecto"
+  },
+  "hero": {
+    "badge": "Ingeniería de Software & Automatización B2B",
+    "title": "Construimos la infraestructura digital y automatización que escala tu empresa.",
+    "subtitle": "Desarrollamos sistemas web a medida, arquitecturas cloud de alto rendimiento e integraciones API empresariales para compañías en Latinoamérica y el mundo.",
+    "primaryCta": "Explorar Planes y Servicios",
+    "secondaryCta": "Hablar con Ingeniería"
+  },
+  "services": {
+    "title": "Nuestras Soluciones Core",
+    "subtitle": "Tecnología robusta y arquitectura limpia respaldada por estándares empresariales.",
+    "item1": {
+      "title": "Desarrollo Web Full-Stack a Medida",
+      "desc": "Aplicaciones web empresariales, plataformas multi-catálogo y sistemas de gestión construidos con PHP, Laravel, React, Node.js y Next.js."
+    },
+    "item2": {
+      "title": "Automatización CRM e Integración de APIs",
+      "desc": "Conexión de flujos empresariales, integración oficial con WhatsApp Cloud API, bots de atención y sincronización de bases de datos en tiempo real."
+    },
+    "item3": {
+      "title": "Arquitectura Cloud & DevOps",
+      "desc": "Despliegue, optimización y administración de servidores VPS de alto rendimiento (Hostinger), seguridad perimetral con Cloudflare y balanceo de carga."
+    },
+    "item4": {
+      "title": "Consultoría Fintech & Pagos Digitales",
+      "desc": "Implementación técnica de sistemas de recaudo nacional e internacional, webhooks de facturación, pasarelas y flujos de suscripción seguros."
+    }
+  },
+  "pricing": {
+    "title": "Planes y Tarifas Transparentes",
+    "subtitle": "Precios claros diseñados para auditorías de cumplimiento, pasarelas de pago internacionales y contratación B2B directa.",
+    "btn": "Contratar Servicio"
+  },
+  "methodology": {
+    "title": "Metodología de Trabajo",
+    "subtitle": "Un proceso estructurado que garantiza entregas predecibles y bajo riesgo operativo.",
+    "step1": "01. Levantamiento y Alcance: Definición técnica, cronograma y entregables por escrito.",
+    "step2": "02. Arquitectura y Diseño: Estructuración de bases de datos, endpoints y prototipos.",
+    "step3": "03. Desarrollo y QA: Programación modular con entregas parciales verificables.",
+    "step4": "04. Despliegue y Entrega: Paso a producción, entrega de credenciales y acta de conformidad."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados.",
+    "legal": "Legal & Compliance",
+    "terms": "Términos y Condiciones",
+    "privacy": "Política de Privacidad",
+    "refunds": "Política de Reembolsos",
+    "delivery": "Política de Entregas"
+  }
+}

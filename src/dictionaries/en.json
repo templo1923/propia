@@ -1,0 +1,57 @@
+{
+  "nav": {
+    "services": "Services",
+    "pricing": "Pricing",
+    "method": "Methodology",
+    "contact": "Contact",
+    "cta": "Start Project"
+  },
+  "hero": {
+    "badge": "Software Engineering & B2B Automation",
+    "title": "We build the digital infrastructure and automation that scales your business.",
+    "subtitle": "We develop custom web systems, high-performance cloud architectures, and enterprise API integrations for companies across Latin America and globally.",
+    "primaryCta": "Explore Plans & Services",
+    "secondaryCta": "Talk to Engineering"
+  },
+  "services": {
+    "title": "Our Core Solutions",
+    "subtitle": "Robust technology and clean architecture backed by enterprise standards.",
+    "item1": {
+      "title": "Custom Full-Stack Web Development",
+      "desc": "Enterprise web apps, multi-catalog platforms, and management systems built with PHP, Laravel, React, Node.js, and Next.js."
+    },
+    "item2": {
+      "title": "CRM Automation & API Integration",
+      "desc": "Business workflow connections, official WhatsApp Cloud API integration, automated support bots, and real-time database sync."
+    },
+    "item3": {
+      "title": "Cloud Architecture & DevOps",
+      "desc": "Deployment, optimization, and administration of high-performance VPS servers (Hostinger), perimeter security with Cloudflare, and load balancing."
+    },
+    "item4": {
+      "title": "Fintech & Digital Payments Consulting",
+      "desc": "Technical implementation of national and international collection systems, billing webhooks, payment gateways, and secure subscription flows."
+    }
+  },
+  "pricing": {
+    "title": "Transparent Pricing & Plans",
+    "subtitle": "Clear pricing designed for compliance audits, international payment gateways, and direct B2B contracting.",
+    "btn": "Get Started"
+  },
+  "methodology": {
+    "title": "Working Methodology",
+    "subtitle": "A structured process ensuring predictable deliveries and low operational risk.",
+    "step1": "01. Scope & Discovery: Technical definition, timeline, and written deliverables.",
+    "step2": "02. Architecture & Design: Database structure, endpoints, and prototypes.",
+    "step3": "03. Development & QA: Modular programming with verifiable partial deliveries.",
+    "step4": "04. Deployment & Handover: Production release, credentials transfer, and sign-off."
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "legal": "Legal & Compliance",
+    "terms": "Terms & Conditions",
+    "privacy": "Privacy Policy",
+    "refunds": "Refund Policy",
+    "delivery": "Delivery Policy"
+  }
+}
